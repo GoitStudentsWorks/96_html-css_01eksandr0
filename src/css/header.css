@@ -92,4 +92,8 @@
     border: 1px solid var(--yellow, #ecd979);
     background-color: transparent;
   }
+  .header-link:hover,
+  .header-link:focus {
+    color: #ecd979;
+  }
 }
