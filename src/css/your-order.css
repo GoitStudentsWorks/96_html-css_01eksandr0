@@ -1,0 +1,157 @@
+.your-order__container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.img-your_order {
+  display: none;
+}
+
+.your-order_container__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.paragraph_form-order-section {
+  width: 335px;
+  height: 176px;
+  color: #FCF9F9;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+}
+
+.your-order {
+  color: #ECD979;
+}
+
+.order__input {
+  display: flex;
+  width: 335px;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  background-color: transparent;
+
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+
+  color: #FCF9F9;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+
+  margin-bottom: 20px;
+}
+.teaxterea-comment {
+  width: 335px;
+  height: 196px;
+  display: flex;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+
+  color: #FCF9F9;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.submit-order__arrow {
+  display: flex;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 145px;
+  text-align: center;
+  background-color: transparent;
+  color: #FCF9F9;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+}
+@media screen and (min-width: 768px) {
+  .your-order__container {
+    padding-top: 50px;
+    padding-bottom: 89px;
+  }
+  .img-your_order {
+    display: flex;
+    position: relative;
+    width: 638px;
+    height: 521px;
+    flex-shrink: 0;
+    justify-content: end;
+    left: 5%;
+  }
+
+  .your-order_container__form {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    gap: 40px;
+  }
+
+  .paragraph_form-order-section {
+
+  }
+
+  .your-order {
+
+  }
+
+  .input-order_block {
+
+  }
+
+  .order__input {
+    width: 508px;
+  }
+
+  .full__name {
+
+  }
+
+  .your__email {
+
+  }
+
+  .teaxterea-comment {
+    width: 508px;
+  }
+
+  .submit-order__arrow {
+
+  }
+
+  .send-icon__order {
+
+  }
+}
