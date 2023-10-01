@@ -32,16 +32,10 @@
   display: inline-flex;
   width: 145px;
   height: 49px;
-  padding: 14px 36px;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
   align-items: center;
-  gap: 10px;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-}
-
-.hero-btn-icon {
-  width: 26px;
-  height: 10px;
-  margin: 0;
 }
