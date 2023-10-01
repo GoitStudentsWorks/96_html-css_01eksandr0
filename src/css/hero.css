@@ -1,0 +1,47 @@
+.hero {
+  background-color: #1c2225;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  color: var(--white, #fcf9f9);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px; /* 122.727% */
+  letter-spacing: -1.32px;
+}
+
+.yellow-text {
+  color: var(--white, #ecd979);
+}
+
+.hero-btn {
+  color: var(--white, #fcf9f9);
+  font-style: normal;
+  margin: 20px auto 40px 90px;
+  font-weight: 600;
+  background-color: #1c2225;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  display: inline-flex;
+  width: 145px;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+}
+
+.hero-btn-icon {
+  width: 26px;
+  height: 10px;
+  margin: 0;
+}
