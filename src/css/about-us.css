@@ -1,79 +1,64 @@
 .aboutus {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    text-align: left;
-    background-repeat: no-repeat;
-    background-size: cover; 
-	margin: 40px auto;
-	position: relative;
-    
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px auto;
+  position: relative;
 }
-.aboutus img {
-    width: 100%;}
 
+@media (min-width: 1280px) {
+  .aboutus-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 
+  .aboutus-img {
+    min-width: 594px;
+    height: 545px;
+  }
 
-   
-    @media (min-width: 1280px) {
-        .aboutus-list {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            
-        }
-       
-        .aboutus-img {
-            min-width: 594px;
-            height: 545px;
-            
-        } 
-        
-        .aboutus-main {
-            display: block;
-            margin-top: 45px;
-            margin-bottom: 45px;
-            margin-right: 50px;
-           
-            
-        } 
+  .aboutus-main {
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-right: 50px;
+  }
+}
 
-        
-    }  
+.aboutus-title {
+  color: rgba(252, 249, 249, 1);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  margin-bottom: 40px;
+}
 
-    .aboutus-title {
-        color: rgba(252, 249, 249, 1);
-        font-weight: 500;
-        font-size: 32px;
-           line-height: 1.4;
-        letter-spacing: 0.03em;
-        margin-bottom: 40px;
-    }
-        
-    .aboutus-text {
-        display: block;
-        color: rgba(252, 249, 249, 0.4);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.4;
-        letter-spacing: 0.04em;
-        margin-bottom: 50px;
-        
-    }
-    .one {
-        margin-bottom: 20px;
-    }
-    
-    @media (min-width: 768px) {
-        .aboutus-title {
-            font-size: 44px;
-            line-height: 1.45;
-    
-            
-        }
-        .aboutus-text {
-            font-size: 16px;
-            line-height: 1.4;
-        }
-    }
+.aboutus-text {
+  display: block;
+  color: rgba(252, 249, 249, 0.4);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  margin-bottom: 50px;
+}
+.one {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .aboutus-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+  .aboutus-text {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
