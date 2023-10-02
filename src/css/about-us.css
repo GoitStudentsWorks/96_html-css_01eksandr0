@@ -17,9 +17,26 @@
     justify-content: space-between;
   }
 
-  .aboutus-img {
+  /* .aboutus-img {
     min-width: 594px;
     height: 545px;
+  } */
+
+
+
+  .aboutus-img {
+    width: 594px;
+    height: 615px;
+    padding-bottom: 80px;
+    position: relative;
+  }
+
+  .aboutus-img::after {
+    position: absolute;
+    content: url(../images/aboutus/elements.png);
+    display: block;
+    bottom: 0;
+    right: 0;
   }
 
   .aboutus-main {
