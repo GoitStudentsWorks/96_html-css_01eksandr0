@@ -96,6 +96,7 @@
   cursor: pointer;
 
   border-radius: 15px;
+  margin-top: 40px;
   border: 1px solid rgba(252, 249, 249, 0.10);
 }
 @media screen and (min-width: 768px) {
@@ -103,6 +104,11 @@
     padding-top: 50px;
     padding-bottom: 89px;
   }
+  .paragraph_form-order-section {
+    width: 530px;
+    height: 174px;
+  }
+
   .img-your_order {
     display: flex;
     position: relative;
@@ -120,40 +126,31 @@
     gap: 40px;
   }
 
-  .paragraph_form-order-section {
-
-  }
-
-  .your-order {
-
-  }
-
-  .input-order_block {
-
-  }
-
   .order__input {
     width: 508px;
-  }
-
-  .full__name {
-
-  }
-
-  .your__email {
-
   }
 
   .teaxterea-comment {
     width: 508px;
   }
-
-  .submit-order__arrow {
-
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 75px 100px 75px 64px;
   }
-
-  .send-icon__order {
-
+  .your-order_container__form {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .paragraph_form-order-section {
+    width: 530px;
+    height: 174px;
+  }
+  .form-input__container {
+    padding-top: 15px;
+    margin-left: 25px;
+  }
+  .img-container {
+    margin-right: 25px;
   }
 }
-
