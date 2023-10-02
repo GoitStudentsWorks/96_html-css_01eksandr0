@@ -1,81 +1,42 @@
 .aboutus {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.aboutus-container {
   display: flex;
   flex-direction: column;
-  position: relative;
-  text-align: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 40px auto;
-  position: relative;
+  gap: 50px;
 }
-
-@media (min-width: 1280px) {
-  .aboutus-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  }
-
-  /* .aboutus-img {
-    min-width: 594px;
-    height: 545px;
-  } */
-
-
-
-  .aboutus-img {
-    width: 594px;
-    height: 615px;
-    padding-bottom: 80px;
-    position: relative;
-  }
-
-  .aboutus-img::after {
-    position: absolute;
-    content: url(../images/aboutus/elements.png);
-    display: block;
-    bottom: 0;
-    right: 0;
-  }
-
-  .aboutus-main {
-    display: block;
-    margin-top: 45px;
-    margin-bottom: 45px;
-    margin-right: 50px;
-  }
-}
-
 .aboutus-title {
-  color: rgba(252, 249, 249, 1);
-  font-weight: 500;
+  color: #fcf9f9;
   font-size: 32px;
+  font-weight: 500;
   line-height: 1.4;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
-
-.aboutus-text {
-  display: block;
+.aboutus-paragraph {
+  width: 335px;
   color: rgba(252, 249, 249, 0.4);
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.4;
-  letter-spacing: 0.04em;
-  margin-bottom: 50px;
+  line-height: normal;
+  letter-spacing: -0.04em;
 }
-.one {
+.aboutus-paragraph-first {
   margin-bottom: 20px;
 }
-
-@media (min-width: 768px) {
-  .aboutus-title {
-    font-size: 44px;
-    line-height: 1.45;
-  }
-  .aboutus-text {
-    font-size: 16px;
-    line-height: 1.4;
-  }
+.aboutus-img-container {
+  width: 335px;
+  height: 560px;
+  position: relative;
+}
+.aboutus-img-container::before {
+  content: url(../img/aboutus/about-us-img.png);
+  display: block;
+  width: 459px;
+  height: 408px;
+  position: absolute;
+  bottom: 0px;
+  right: -232px;
+  z-index: -1;
 }
