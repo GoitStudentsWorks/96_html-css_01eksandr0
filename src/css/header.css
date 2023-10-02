@@ -7,6 +7,10 @@
   align-items: center;
   justify-content: space-between;
 }
+.header-logo {
+  margin-right: 10px;
+  flex-shrink: 0;
+}
 .header-media-list {
   display: flex;
   gap: 12px;
