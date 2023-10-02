@@ -141,7 +141,7 @@
   }
   .img-container::before {
     position: absolute;
-    content: url(./img/order-img/order-back-img.png);
+    content: url(../img/order-img/order-back-img.png);
     width: 545px;
     height: 484px;
     display: block;
