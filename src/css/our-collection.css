@@ -47,12 +47,16 @@
     line-height: 1;
     letter-spacing: 0.05em;
 }
+.collection-list:first-cild::before{
+    background-image: url(/img/our-collection/element-collection-mob.png);
+    background-position: left;
+}
 
-.collection-elements{
+/* .collection-elements{
     position:absolute;
     left: 0;
     top: 350px;
-}
+} */
 }
 
 @media screen and (min-width:768px){
