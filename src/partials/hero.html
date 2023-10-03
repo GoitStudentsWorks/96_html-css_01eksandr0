@@ -1,19 +1,42 @@
 <section class="hero">
   <div class="container hero-container">
-    <h1 class="hero-title">
-      Reviving the traditional
-      <span class="yellow-text">Ukrainian</span> artistry in every stitch.
-    </h1>
-    <button class="hero-btn">
-      Order
-      <svg class="hero-btn-icon" width="26" height="15">
-        <use href="../img/icons/symbol-defs.svg#icon-arow"></use>
-      </svg>
-    </button>
+    <div class="hero-title-btn-container">
+      <h1 class="hero-title">
+        Reviving the traditional
+        <span class="yellow-text">Ukrainian</span> artistry in every stitch.
+      </h1>
+      <button class="hero-btn">
+        Order
+        <svg class="hero-btn-icon" width="26" height="15">
+          <use href="./img/icons/symbol-defs.svg#icon-arow"></use>
+        </svg>
+      </button>
+    </div>
     <img
       class="hero-img"
-      src="../img/hero/hero-img-mob.jpg"
+      srcset="
+        ./img/hero/hero-img-mob.jpg        335w,
+        ./img/hero/hero-img-mob@2x.jpg     670w,
+        ./img/hero/hero-img-tab.jpg        413w,
+        ./img/hero/hero-img-tab@2x.jpg     826w,
+        ./img/hero/hero-img-desktop.jpg    392w,
+        ./img/hero/hero-img-desktop@2x.jpg 784w
+      "
+      src="./img/hero/hero-img-mob.jpg"
       alt="girl in embroidered shirt"
     />
+    <div class="hero-icon-container">
+      <svg class="hero-icon">
+        <use href="./img/icons/symbol-defs.svg#icon-star"></use>
+      </svg>
+      <p class="hero-icon-text">all embroidery is made by hand</p>
+    </div>
+    <div class="hero-vyshivanka">
+      <img
+        class="vyshivanka-img"
+        src="./img/hero/hero-bg.jpg"
+        alt="vyshivanka"
+      />
+    </div>
   </div>
 </section>
