@@ -150,9 +150,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    padding: 75px 100px 75px 64px;
-  }
   .your-order_container__form {
     display: flex;
     flex-direction: row-reverse;
