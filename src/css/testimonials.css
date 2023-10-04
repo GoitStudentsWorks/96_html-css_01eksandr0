@@ -3,13 +3,10 @@
         display: none;
     }
 }
-*{
-    border: 1px solid maroon;
-}
 
 .testimonials-section{
     padding-top: 40px;
-    padding-bottom: 800px;
+    padding-bottom: 80px;
 }
 
 .testimonials-title{
