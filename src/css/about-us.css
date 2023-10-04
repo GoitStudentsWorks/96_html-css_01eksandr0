@@ -29,7 +29,7 @@
 .aboutus-img-container::after {
   position: absolute;
   display: flex;
-  content: url(../img/aboutus/);
+  content: url(../img/aboutus/about-element.png);
   bottom: -50px;
   right: -20px;
   z-index: -1;
@@ -53,7 +53,7 @@
   .aboutus-img-container::after {
     right: -35px;
     bottom: -50px;
-    content: url(../img/aboutus/about-us-img-tablet.png);
+    content: url(../img/aboutus/about-element-tablet.png);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -76,6 +76,6 @@
   .aboutus-img-container::after {
     bottom: -80px;
     right: -100px;
-    content: url(../img/aboutus/about-us-img-comp.png);
+    content: url(../img/aboutus/about-element-comp.png);
   }
 }
