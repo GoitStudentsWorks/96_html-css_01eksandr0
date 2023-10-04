@@ -111,15 +111,15 @@
   }
   .hero-vyshivanka {
     position: absolute;
-    bottom: 0;
+    bottom: -97px;
     right: 23px;
   }
 
   .vyshivanka-img {
-    border-top-left-radius: 105.126%;
-    border-top-right-radius: 113.938%;
+    /* border-top-left-radius: 105.126%;
+    border-top-right-radius: 113.938%; */
     width: 139px;
-    height: 101px;
+    height: 197px;
     display: block;
   }
 }
