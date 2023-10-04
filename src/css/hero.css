@@ -117,7 +117,7 @@
 
   .vyshivanka-img {
     border-top-left-radius: 105.126%;
-    border-top-right-radius: 103.318%;
+    border-top-right-radius: 113.938%;
     width: 139px;
     height: 101px;
     display: block;
@@ -125,25 +125,31 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 50px;
+  }
+
   .hero-container {
     flex-direction: row;
   }
 
+  .hero-title-btn-container {
+    padding-top: 94px;
+    padding-left: 40px;
+  }
+
   .hero-title {
     width: 518px;
-    margin-top: 194px;
-    margin-left: 40px;
   }
 
   .hero-btn {
-    margin-left: 181px;
+    margin-left: 141px;
   }
 
   .hero-img {
     order: -1;
     width: 395px;
     height: 545px;
-    margin-top: 100px;
   }
 
   .hero-icon-container {
