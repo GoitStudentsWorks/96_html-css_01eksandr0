@@ -12,7 +12,7 @@
   font-size: 32px;
   font-weight: 500;
   line-height: 1.4;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   margin-bottom: 40px;
 }
 .aboutus-paragraph {
@@ -31,7 +31,7 @@
   display: flex;
   content: url(../img/aboutus/about-us-img.png);
   bottom: -50px;
-  left: 110px;
+  right: -20px;
   z-index: -1;
 }
 
@@ -51,9 +51,9 @@
     font-size: 16px;
   }
   .aboutus-img-container::after {
-    left: 370px;
+    right: -35px;
     bottom: -50px;
-    content: url(../img/aboutus/about-us-img-comp.png);
+    content: url(../img/aboutus/about-us-img-tablet.png);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -75,10 +75,7 @@
   }
   .aboutus-img-container::after {
     bottom: -80px;
-    left: 170px;
-
-    font-size: 16px;
-    line-height: 1.4;
-    width: 100%;
+    right: -100px;
+    content: url(../img/aboutus/about-us-img-comp.png);
   }
 }

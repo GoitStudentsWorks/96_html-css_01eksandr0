@@ -1,4 +1,4 @@
-.your-order__container {
+.your-order-section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -91,6 +91,10 @@
   line-height: normal;
   letter-spacing: -0.56px;
   text-transform: uppercase;
+<<<<<<< Updated upstream
+=======
+  cursor: pointer;
+>>>>>>> Stashed changes
   border-radius: 15px;
   margin-top: 40px;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -104,7 +108,6 @@
     width: 530px;
     height: 174px;
   }
-
   .img-your_order {
     display: flex;
     position: relative;
@@ -114,12 +117,11 @@
     justify-content: end;
     left: 5%;
   }
-
   .your-order_container__form {
     display: flex;
     flex-direction: column;
     align-items: normal;
-    gap: 40px;
+    gap: 100px;
   }
 
   .order__input {
@@ -130,13 +132,22 @@
     width: 508px;
   }
   .img-container {
+<<<<<<< Updated upstream
     padding-left: 70px;
     padding-bottom: 70px;
+=======
+>>>>>>> Stashed changes
     position: relative;
+    padding-left: 50px;
+    padding-bottom: 50px;
   }
   .img-container::before {
     position: absolute;
+<<<<<<< Updated upstream
     content: url(../img/order-img/about-us-img.png);
+=======
+    content: url(../img/order-img/order-element-tablet.png);
+>>>>>>> Stashed changes
     width: 545px;
     height: 484px;
     display: block;
@@ -148,6 +159,7 @@
   .your-order_container__form {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
   }
   .paragraph_form-order-section {
     width: 530px;
@@ -158,7 +170,15 @@
     margin-left: 25px;
   }
   .img-container {
-    margin-right: 25px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 50px;
+  }
+  .img-container::before {
+    height: 485px;
+    width: 270px;
+    left: -100px;
   }
   .img-container::before {
     content: url(../img/order-img/about-us-img-tablet.png);
