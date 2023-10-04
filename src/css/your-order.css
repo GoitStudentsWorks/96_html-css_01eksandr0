@@ -2,21 +2,13 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
-.img-your_order {
-  display: none;
-}
-
-.your-order_container__form {
+.your-order-container-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
-
-.paragraph_form-order-section {
-  width: 335px;
-  height: 176px;
+.yourorder-title {
   color: #fcf9f9;
   font-family: Manrope;
   font-size: 32px;
@@ -24,144 +16,128 @@
   font-weight: 500;
   line-height: 44px;
   letter-spacing: 0.02em;
+  margin-bottom: 40px;
 }
-
-.your-order {
+.yourorder-title-part {
   color: #ecd979;
 }
 
-.order__input {
-  display: flex;
-  width: 335px;
+.order-input {
   padding: 14px 16px;
-  align-items: flex-start;
-  gap: 8px;
+  width: 100%;
   background-color: transparent;
-
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-
   color: #fcf9f9;
   font-family: Manrope;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.32px;
-
-  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+  outline: transparent;
+  transition: border-color 250ms ease-in-out;
 }
 .teaxterea-comment {
-  width: 335px;
+  width: 100%;
   height: 196px;
   display: flex;
   padding: 14px 16px;
-  align-items: flex-start;
-  gap: 8px;
-  flex: 1 0 0;
   background-color: transparent;
-  align-self: stretch;
   border-radius: 8px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-
   color: #fcf9f9;
   font-family: Manrope;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.32px;
+  letter-spacing: 0.02em;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms ease-in-out;
 }
-
-.submit-order__arrow {
+.submit-order-arrow {
   display: flex;
-  height: 49px;
-  padding: 14px 36px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   width: 145px;
-  text-align: center;
+  height: 49px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
   color: #fcf9f9;
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
-  border-radius: 15px;
-  margin-top: 40px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
+  transition: border-color 250ms ease-in-out;
+}
+.order-input:focus,
+.teaxterea-comment:focus,
+.submit-order-arrow:hover,
+.submit-order-arrow:focus {
+  border-color: #ecd979;
+}
+
+@media screen and (max-width: 767px) {
+  .img-container {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
-  .your-order__container {
+  .your-order-section {
     padding-top: 50px;
-    padding-bottom: 89px;
+    padding-bottom: 50px;
   }
-  .paragraph_form-order-section {
-    width: 530px;
-    height: 174px;
-  }
-  .img-your_order {
-    display: flex;
-    position: relative;
-    width: 638px;
-    height: 521px;
-    flex-shrink: 0;
-    justify-content: end;
-    left: 5%;
-  }
-  .your-order_container__form {
+  .your-order-container {
     display: flex;
     flex-direction: column;
-    align-items: normal;
     gap: 100px;
   }
-
-  .order__input {
+  .yourorder-title {
+    font-size: 44px;
+    width: 542px;
+  }
+  .your-order-container-form {
+    align-items: start;
+  }
+  .order-input {
     width: 508px;
   }
-
   .teaxterea-comment {
     width: 508px;
   }
   .img-container {
+    padding-left: 70px;
+    padding-bottom: 70px;
     position: relative;
-    padding-left: 50px;
-    padding-bottom: 50px;
   }
   .img-container::before {
-    position: absolute;
-    width: 545px;
-    height: 484px;
     display: block;
+    content: url(../img/order-img/order-element-tablet.png);
+    position: absolute;
     bottom: 0;
     left: 0;
-    content: url(../img/order-img/order-element-tablet.png);
+    z-index: -1;
   }
 }
 @media screen and (min-width: 1280px) {
-  .your-order_container__form {
-    display: flex;
+  .your-order-container {
     flex-direction: row-reverse;
-    align-items: center;
-  }
-  .paragraph_form-order-section {
-    width: 530px;
-    height: 174px;
-  }
-  .form-input__container {
-    padding-top: 15px;
-    margin-left: 25px;
+    gap: 50px;
   }
   .img-container {
     padding: 0;
   }
   .img-container::before {
     content: url(../img/order-img/order-element-comp.png);
-    bottom: -119px;
+    bottom: 0px;
     left: -100px;
   }
 }
