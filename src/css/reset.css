@@ -30,3 +30,8 @@ body {
   font-family: 'Manrope', sans-serif;
   background-color: #1c2225;
 }
+@media screen and (min-width: 1280px) {
+  .burger {
+    display: none;
+  }
+}
