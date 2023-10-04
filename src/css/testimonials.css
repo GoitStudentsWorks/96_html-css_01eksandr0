@@ -1,14 +1,4 @@
 @media screen and (max-width: 767px) {
-<<<<<<< Updated upstream
-    .testimonials-card.sergey{
-        display: none;
-    }
-}
-
-.testimonials-section{
-    padding-top: 40px;
-    padding-bottom: 80px;
-=======
   .testimonials-card.sergey {
     display: none;
   }
@@ -16,8 +6,7 @@
 
 .testimonials-section {
   padding-top: 40px;
-  padding-bottom: 800px;
->>>>>>> Stashed changes
+  padding-bottom: 80px;
 }
 
 .testimonials-title {

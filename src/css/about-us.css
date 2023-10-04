@@ -29,7 +29,7 @@
 .aboutus-img-container::after {
   position: absolute;
   display: flex;
-  content: url(../img/aboutus/about-us-img.png);
+  content: url(../img/aboutus/);
   bottom: -50px;
   right: -20px;
   z-index: -1;
