@@ -30,7 +30,7 @@
         ></textarea>
         <button type="submit" class="submit-order__arrow">
           SEND
-          <svg class="send-icon__order">
+          <svg class="send-icon__order" width="26" height="15">
             <use href="./img/icons/symbol-defs.svg#icon-arow"></use>
           </svg>
         </button>
@@ -38,7 +38,12 @@
     </div>
     <div class="img-container">
       <img
-        src="./img/back-sect-img/your-order/your-order.jpg"
+        srcset="./img/order-img/order-girl-tablet.jpg 638w 
+      ./img/order-img/order-girl-tablet@2x.jpg 1276w 
+      ./img/order-img/order-girl-comp.jpg 524w 
+      ./img/order-img/order-girl-comp@2x.jpg 1048w"
+        sizes="(min-width:1280px) 524px, (max-width:1279px) 638px"
+        src="./img/order-img/order-girl-tablet.jpg"
         alt="Photo Your Order"
         class="img-your_order"
       />
