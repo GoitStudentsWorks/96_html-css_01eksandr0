@@ -6,6 +6,17 @@
   background-position: center;
   margin: 0 auto;
 }
+@media screen and (min-resolution: 192dpi) and (min-width: 375px) {
+  .back-img-section {
+    background-image: url(../img/back-sect-img/back-sect-mobail.jpg);
+    height: 550px;
+    width: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+}
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
