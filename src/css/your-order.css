@@ -91,10 +91,6 @@
   line-height: normal;
   letter-spacing: -0.56px;
   text-transform: uppercase;
-<<<<<<< Updated upstream
-=======
-  cursor: pointer;
->>>>>>> Stashed changes
   border-radius: 15px;
   margin-top: 40px;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -132,27 +128,18 @@
     width: 508px;
   }
   .img-container {
-<<<<<<< Updated upstream
-    padding-left: 70px;
-    padding-bottom: 70px;
-=======
->>>>>>> Stashed changes
     position: relative;
     padding-left: 50px;
     padding-bottom: 50px;
   }
   .img-container::before {
     position: absolute;
-<<<<<<< Updated upstream
-    content: url(../img/order-img/about-us-img.png);
-=======
-    content: url(../img/order-img/order-element-tablet.png);
->>>>>>> Stashed changes
     width: 545px;
     height: 484px;
     display: block;
     bottom: 0;
     left: 0;
+    content: url(../img/order-img/about-us-img-tablet.png);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -181,6 +168,6 @@
     left: -100px;
   }
   .img-container::before {
-    content: url(../img/order-img/about-us-img-tablet.png);
+    content: url(../img/order-img/about-us-img.png);
   }
 }
